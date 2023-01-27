@@ -58,4 +58,4 @@ tidy_summary <- data.frame(t(tidy_summary))
 # change names to indicate summary statistic (mean)
 names(tidy_summary) <- gsub("(.*)", "mean_\\1", names(tidy_summary))
 
-write.csv(tidy_summary, file="data/tidy_summary.csv")
+write.table(tidy_summary, file="data/tidy_summary.txt", row.name=F)
