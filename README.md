@@ -10,11 +10,11 @@ Included in this repository under the `data` directory are:
 
 1. The [raw data](data/UCI%20HAR%20Dataset.zip)
 2. The [tidy dataset](data/tidy_data.csv)
-3. The [summary statistics](data/tidy_summary.csv)
+3. The [summary statistics](data/tidy_summary.txt)
 
 ## Scripts
 
-This project contains one main script titled [run_statistics.R](scripts/run_analysis.R) which completes all the data processing.
+This project contains one main script titled [run_statistics.R](run_analysis.R) which completes all the data processing.
 
 This script:
 
